@@ -114,7 +114,7 @@ const AdminDashboard: React.FC = () => {
                </div>
                <h3 className="text-3xl font-black mb-4">Rekapitulasi Spreadsheet</h3>
                <p className="text-slate-400 max-w-xl text-lg leading-relaxed mb-8">
-                 Jadwal seleksi sekarang diatur langsung melalui kode backend script.                 Seluruh data pendaftar dan link PDF dapat diakses melalui tombol di bawah ini.
+                 Jadwal seleksi sekarang diatur langsung melalui kode backend script. Seluruh data pendaftar dan link PDF dapat diakses melalui tombol di bawah ini.
                </p>
                <div className="flex gap-4">
                   <a href="https://docs.google.com/spreadsheets/d/1qJuIRu5UPz7lwyW4sShf2ZGNvmN18bQIlSDKeFuoHWY/edit" target="_blank" rel="noreferrer" className="px-8 py-4 bg-white text-slate-900 rounded-2xl font-bold hover:bg-slate-100 transition shadow-lg flex items-center gap-3">
