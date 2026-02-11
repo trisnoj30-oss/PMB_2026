@@ -41,7 +41,7 @@ function handleRegistration(data) {
   
   const lastRow = sheet.getLastRow();
   const nextNumber = lastRow; 
-  const regNo = "SPMB-2026-" + ("000" + nextNumber).slice(-4);
+  const regNo = "PMB-2026-" + ("000" + nextNumber).slice(-4);
   
   const group = Math.floor((nextNumber - 1) / 200) + 1;
   const jadwal = getJadwalKonfigurasi(group);
