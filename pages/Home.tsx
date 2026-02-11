@@ -32,9 +32,10 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-4 relative z-10 text-center">
           <div className="animate-fadeIn">
             <h2 className="text-4xl md:text-7xl font-extrabold text-white mb-6 leading-tight tracking-tight">
-              MAS SALAFIYAH <br />
+              MAS SALAFIYAH KEREK <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
-                Pendidikan Terbaik Untuk Masa Depan Anda
+                Pendidikan Terbaik 
+                Untuk Masa Depan Anda
               </span>
             </h2>
             <p className="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed font-medium">
