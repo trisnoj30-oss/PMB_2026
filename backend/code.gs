@@ -4,9 +4,9 @@
  * Masukkan kode ini di Extensions > Apps Script pada Google Spreadsheet Anda.
  */
 
-const SPREADSHEET_ID = '1D_GopWMIf7qdvOy9JIhm872d5DZBmXJMupLTULGdmFw';
-const FOLDER_ID_DRIVE = '1ATbk2xbjFYLgknsV0LQV4psvnDZyJGVe'; 
-const TEMPLATE_DOC_ID = '15aSLt4_mOIDGkYOLkmmoIhqYYyrqM0xjhaVFB9UWHdI'; 
+const SPREADSHEET_ID = '1qJuIRu5UPz7lwyW4sShf2ZGNvmN18bQIlSDKeFuoHWY';
+const FOLDER_ID_DRIVE = '1ReJ7ucNVqsZaxxq32hFkMW_x8m5rQyz5'; 
+const TEMPLATE_DOC_ID = '1ZtUgL2Rr5Fiw78WVaKhsNCSLAzPjQ3QPtSmk8203OV8'; 
 
 function getJadwalKonfigurasi(group) {
   const daftarJadwal = {
