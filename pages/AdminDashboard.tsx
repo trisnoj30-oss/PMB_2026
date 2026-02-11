@@ -38,7 +38,7 @@ const AdminDashboard: React.FC = () => {
             <div className="bg-blue-600 p-2 rounded-lg">
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12V12a1 1 0 00.553.894l3.5 1.75a1 1 0 00.894 0l3.5-1.75A1 1 0 0014 12v-1.88l1.69-.724a1 1 0 011.083 1.635l-7 3a1 1 0 01-.788 0l-7-3a1 1 0 011.083-1.635z"></path></svg>
             </div>
-            <div className="font-bold text-xl tracking-tight">Admin SPMB</div>
+            <div className="font-bold text-xl tracking-tight">Admin PMB</div>
           </div>
           <div className="text-[10px] text-slate-500 uppercase font-black tracking-[0.2em]">Live Database</div>
         </div>
