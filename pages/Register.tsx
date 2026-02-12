@@ -278,11 +278,11 @@ const Register: React.FC = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="col-span-full">
-                    <h4 className="font-bold text-slate-800 mb-4 border-b pb-2 uppercase text-xs tracking-widest">Berkas Opsonal (Jika Ada)</h4>
+                    <h4 className="font-bold text-slate-800 mb-4 border-b pb-2 uppercase text-xs tracking-widest">Berkas Wajib</h4>
                   </div>
                   <FormFile label="Scan Akta Kelahiran" required fileName={fileNames.akta} isProcessing={fileProcessing.akta} onChange={(e) => handleFileChange(e, 'akta')} />
                   <FormFile label="Scan Kartu Keluarga (KK)" required fileName={fileNames.kk} isProcessing={fileProcessing.kk} onChange={(e) => handleFileChange(e, 'kk')} />
-                  <FormFile label="Scan Kartu NISN" required fileName={fileNames.nisn} isProcessing={fileProcessing.nisn} onChange={(e) => handleFileChange(e, 'nisn')} />
+                  <FormFile label="Scan Kartu NISN" fileName={fileNames.nisn} isProcessing={fileProcessing.nisn} onChange={(e) => handleFileChange(e, 'nisn')} />
                   <FormFile label="Scan Rapor Terakhir" fileName={fileNames.rapor} isProcessing={fileProcessing.rapor} onChange={(e) => handleFileChange(e, 'rapor')} />
                   
                   <div className="col-span-full mt-6">
