@@ -278,7 +278,7 @@ const Register: React.FC = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="col-span-full">
-                    <h4 className="font-bold text-slate-800 mb-4 border-b pb-2 uppercase text-xs tracking-widest">Berkas Wajib</h4>
+                    <h4 className="font-bold text-slate-800 mb-4 border-b pb-2 uppercase text-xs tracking-widest">Berkas Opsonal (Jika Ada)</h4>
                   </div>
                   <FormFile label="Scan Akta Kelahiran" required fileName={fileNames.akta} isProcessing={fileProcessing.akta} onChange={(e) => handleFileChange(e, 'akta')} />
                   <FormFile label="Scan Kartu Keluarga (KK)" required fileName={fileNames.kk} isProcessing={fileProcessing.kk} onChange={(e) => handleFileChange(e, 'kk')} />
