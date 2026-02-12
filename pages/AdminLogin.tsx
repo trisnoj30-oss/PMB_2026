@@ -29,7 +29,7 @@ const AdminLogin: React.FC = () => {
             </svg>
           </div>
           <h2 className="text-2xl font-bold text-slate-800">Admin Login</h2>
-          <p className="text-slate-500 text-sm mt-1">Sistem Penerimaan Murid Baru</p>
+          <p className="text-slate-500 text-sm mt-1">Penerimaan Murid Baru</p>
         </div>
 
         {error && <div className="bg-red-50 text-red-600 text-sm p-4 rounded-lg mb-6 border border-red-100 text-center">{error}</div>}
