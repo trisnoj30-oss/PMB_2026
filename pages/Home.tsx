@@ -18,7 +18,7 @@ const Home: React.FC = () => {
         {/* Background Image with Overlay */}
         <div className="absolute top-0 left-0 w-full h-full">
           <img 
-            src="https://images.unsplash.com/photo-1523050853064-85572275ad44?auto=format&fit=crop&q=80&w=1920" 
+            src="https://freeimage.host/i/anime-madrasah.q9cWYPf" 
             alt="School Background" 
             className="w-full h-full object-cover opacity-20"
             onError={(e) => {
